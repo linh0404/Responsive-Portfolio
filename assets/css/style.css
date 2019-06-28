@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: absolute;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -243,7 +243,7 @@ input[type=submit] {
 
   #main-container {
     width: 100%;
-    max-width: 640px;
+    max-width: 660px;
     margin: 0 auto;
     clear: both;
   }
@@ -255,10 +255,49 @@ input[type=submit] {
   nav {
     margin-right: 100px;
   }
-  
+
 }
 
 @media screen and (max-width: 640px) {
 
+  #main-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .main-section {
+    margin: 70px 0px 20px 0px;
+  }
+    
+  #masthead {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
   
-}
+  #logo {
+    float: none;
+    width: 100%;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: none;
+    margin: 25px;
+  }
+  
