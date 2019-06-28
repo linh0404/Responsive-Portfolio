@@ -241,6 +241,20 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
+  #main-container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .container {
+    margin: 0 0 0 50px;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
   
 }
 
