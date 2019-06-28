@@ -216,3 +216,35 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+
+  #main-container {
+    width: 100%;
+    max-width: 660px;
+    margin: 20px;
+    clear: both;
+  }
+
+  .container {
+    margin: 0px 0px 0px 20px;
+  }
+
+  nav {
+    margin-right: 60px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  
+}
+
+@media screen and (max-width: 640px) {
+
+  
+}
