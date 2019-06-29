@@ -55,6 +55,7 @@ h3 {
 
 #masthead {
   position: absolute;
+  top: 0;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -275,33 +276,13 @@ input[type=submit] {
   .main-section {
     margin: 70px 0px 20px 0px;
   }
-    
-  #masthead {
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-    margin: 0px;
-    overflow: auto;
-    color: #ffffff;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-  }
   
   #logo {
     float: none;
     display: block; 
     width: 100%;
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    background: #4aaaa5;
   }
-  
+
   nav {
     float: none;
     display: block;
@@ -312,4 +293,16 @@ input[type=submit] {
   
   nav a {
     margin: 0px;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .work {
+  position: relative;
+  float: none;
+  width: 100%;
   }
